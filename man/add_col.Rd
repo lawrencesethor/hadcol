@@ -9,8 +9,8 @@ add_col(x, name, value, where = -1)
 \arguments{
 \item{x}{A data frame}
 
-\item{name}{Name of variable to create. If a variable of that name
-already exists it will be replaced}
+\item{name}{Name of variable to create. If variable of that name
+already exists}
 
 \item{value}{Values to insert.}
 
@@ -18,8 +18,8 @@ already exists it will be replaced}
 RHS.}
 }
 \description{
-Allows you to specify the position. Will replace existing variable
-with the same name if present.
+Similar to cbind, but allows you to specify the position. Will replac
+existing variable with the same name if present.
 }
 \examples{
 df <- data.frame(x = 1:5)

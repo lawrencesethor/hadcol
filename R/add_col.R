@@ -1,11 +1,11 @@
 #' Add a column to a data frame
 #'
-#' Allows you to specify the position. Will replace existing variable
-#' with the same name if present.
+#' Similar to cbind, but allows you to specify the position. Will replac
+#' existing variable with the same name if present.
 #'
 #' @param x A data frame
-#' @param name Name of variable to create. If a variable of that name
-#'   already exists it will be replaced
+#' @param name Name of variable to create. If variable of that name
+#'   already exists
 #' @param value Values to insert.
 #' @param where Position to insert. Use 1 to insert on LHS, or -1 to insert on
 #'   RHS.
