@@ -2,23 +2,23 @@
 % Please edit documentation in R/add_col.R
 \name{add_col}
 \alias{add_col}
-\title{Add a column to a data frame}
+\title{Add a colum to a data frame}
 \usage{
 add_col(x, name, value, where = -1)
 }
 \arguments{
 \item{x}{A data frame}
 
-\item{name}{Name of variable to create. If variable of that name
+\item{name}{Name of variabl to create. If variable of that name
 already exists}
 
 \item{value}{Values to insert.}
 
-\item{where}{Position to insert. Use 1 to insert on LHS, or -1 to insert on
+\item{where}{position to insert. Use 1 to insert on LHS, or -1 to insert on
 RHS.}
 }
 \description{
-Similar to cbind, but allows you to specify the position. Will replac
+Similar to cbind, but allows you to specify the positoin. Will replac
 existing variable with the same name if present.
 }
 \examples{
